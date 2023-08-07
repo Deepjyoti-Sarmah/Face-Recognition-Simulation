@@ -1,0 +1,54 @@
+################
+input_images
+output_images
+post images
+new_dataset
+results_123
+data_set
+MTCNN/dataset
+Face_working_recognition/Working/1_Hog_output_images_noBW
+Face_working_recognition/Working/Hog_output_images
+Face_working_recognition/Working/image_2_4
+Face_working_recognition/Working/image_3_4
+Face_working_recognition/Working/images
+Face_working_recognition/Working/images_3
+Face_working_recognition/Working/images_4
+Face_working_recognition/Working/new_tama_images
+Face_working_recognition/Working/new dataset 4-20230701T161203Z-001
+Face_working_recognition/Working/new dataset final-20230701T083830Z-001
+Face_working_recognition/Working/test_tes
+Face_working_recognition/Working/Resources
+Face_working_recognition/Working/images_2
+Face_working_recognition/Working/.vscode
+Face_working_recognition/Working/.editorconfig
+Face_working_recognition/Working/EncodeFile.p
+Face_working_recognition/Working/.env
+Face_working_recognition/hog.py
+####################################
+lfw
+DnHFaces
+Realtime_NOT_working
+new dataset 4-20230701T161203Z-001.zip
+new dataset final-20230701T083830Z-001.zip
+post images-20230630T092456Z-001.zip
+##############################################
+Drone_Simulation/mav.tlog
+Drone_Simulation/mav.tlog.raw
+Drone_Simulation/mav.parm
+############################################
+MTCNN/Dataset 1.zip
+MTCNN/.ipynb_checkpoints/Face Recognition-checkpoint.ipynb
+MTCNN/.ipynb_checkpoints
+MTCNN/.ipynb_checkpoints/FaceRecognition-checkpoint.ipynb
+MTCNN/face_recognition.py
+MTCNN/faces_embeddings_1.npz
+MTCNN/svm_model_160x160.pkl
+############################################
+serviceAccountKey.json
+chatgptHog.py
+############################################
+mav.parm
+mav.tlog
+mav.tlog.raw
+haarcascade_frontalface_default.xml
+##########################################
