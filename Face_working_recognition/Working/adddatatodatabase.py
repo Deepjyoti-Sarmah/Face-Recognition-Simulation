@@ -7,33 +7,33 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': "https://face-recognition-june-2023-default-rtdb.firebaseio.com/"
 })
 
-ref = db.reference('Students')
+ref = db.reference('DnHFaces')
 
 data = {
     "01":
         {
-            "name": "HariOm Kr Modi",
+            "name": "ab_gp_0_eo_25.JPG",
             "detection_no": 1
 
         },
     "02":
         {
-            "name": "Ranjeet_kumar_gupta",
+            "name": "cd_gp_3_eo_25.JPG",
             "detection_no": 2
         },
     "03":
         {
-            "name": "Doni_Khungev_Basumatary",
+            "name": "ef_gp_0_eo_27.JPG",
             "detection_no": 3
         },
     "04":
         {
-            "name": "Prince Raj Kumar",
+            "name": "gh_gp_0_eo_29.JPG",
             "detection_no": 1
         },
     "05":
         {
-            "name": "Mayuk_Bhattachargy",
+            "name": "ijk_gp_0_eo_30.JPG",
             "detection_no": 0
         },
     "06":

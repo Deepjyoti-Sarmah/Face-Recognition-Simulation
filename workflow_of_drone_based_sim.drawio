@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2023-08-10T09:50:29.393Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="ENs14slS9Q2iKxaelT0G" version="21.6.7" type="device">
+  <diagram name="Page-1" id="nyNYhaQXL7i40y4kaw-L">
+    <mxGraphModel dx="1828" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0DeusL_lCxefkn773Be0-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DeusL_lCxefkn773Be0-2" target="0DeusL_lCxefkn773Be0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-2" value="camera/Drone" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DeusL_lCxefkn773Be0-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-3" value="face detection" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="247.5" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0DeusL_lCxefkn773Be0-4" target="0DeusL_lCxefkn773Be0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-4" value="face encodings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="330" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0DeusL_lCxefkn773Be0-5" target="0DeusL_lCxefkn773Be0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0DeusL_lCxefkn773Be0-5" target="0DeusL_lCxefkn773Be0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-5" value="database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="307.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0DeusL_lCxefkn773Be0-7" target="0DeusL_lCxefkn773Be0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-7" value="face recognition" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="420" width="130" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.026;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0DeusL_lCxefkn773Be0-8" target="0DeusL_lCxefkn773Be0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-8" value="SMS Service " style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="50" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=120;entryDy=25;entryPerimeter=0;" edge="1" parent="1" source="0DeusL_lCxefkn773Be0-9" target="0DeusL_lCxefkn773Be0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-9" value="details of the person downloaded" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-10" value="SMS to Admin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="590" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0DeusL_lCxefkn773Be0-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0DeusL_lCxefkn773Be0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="265" as="sourcePoint" />
+            <mxPoint x="-190" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

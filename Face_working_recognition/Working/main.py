@@ -130,18 +130,18 @@ while True:
 
                 counter += 1
 
-                if counter >= 20:
+                # if counter >= 20:
 
-                    #     # name = studentInfo['name']
+                #     # name = studentInfo['name']
 
-                    message = client.messages.create(
-                        body="A face has been detected! The name of the person detected is {} and their ID is {}".format(
-                            *studentInfo.values()),
-                        from_='+15419858704',
-                        to='+916003349334'
-                    )
+                message = client.messages.create(
+                    body="A face has been detected! The name of the person detected is {} and their ID is {}".format(
+                        *studentInfo.values()),
+                    from_='+15419858704',
+                    to='+916003349334'
+                )
 
-                    print(message.status)
+                print(message.status)
 
                 # counter = 0
                 # studentInfo = []
