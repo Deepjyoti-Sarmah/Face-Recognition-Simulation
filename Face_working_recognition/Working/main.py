@@ -21,11 +21,10 @@ firebase_admin.initialize_app(cred, {
 })
 
 
-# account_sid = os.environ["ACCOUNT_SID"]
-# auth_token = os.environ["AUTH_TOKEN"]
+account_sid = os.environ["ACCOUNT_SID"]
+auth_token = os.environ["AUTH_TOKEN"]
 
-account_sid = "AC61072ea617705dad0a5cb2eb94a6fb65"
-auth_token = "72d332a1d4cffe0ca834a8b5cd849463"
+
 
 
 client = Client(account_sid, auth_token)
