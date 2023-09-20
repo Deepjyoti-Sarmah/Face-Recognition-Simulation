@@ -62,4 +62,4 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(conf_matrix, annot=True, cmap="Blues", fmt="d", xticklabels=digits.target_names, yticklabels=digits.target_names)
 plt.xlabel('Predicted')
 plt.ylabel('Actual')
-plt.title('Confusion Ma
+plt.title('Confusion Matrix')

@@ -2,7 +2,7 @@ import os
 import pickle
 import numpy as np
 import cv2
-import face_recognition
+import face_recognition as fp
 import cvzone
 import numpy as np
 
@@ -57,14 +57,14 @@ while True:
     imgS = cv2.resize(img, (0, 0), None, 0.25, 0.25)
     imgS = cv2.cvtColor(imgS, cv2.COLOR_BGR2RGB)
 
-    faceCurFrame = face_recognition.face_locations(imgS)
-    encodeCurFrame = face_recognition.face_encodings(imgS, faceCurFrame)
+    faceCurFrame = fp.face_locations(imgS)
+    encodeCurFrame = fp.face_encodings(imgS, faceCurFrame)
 
     if faceCurFrame:
         for encodeFace, faceLoc in zip(encodeCurFrame, faceCurFrame):
-            matches = face_recognition.compare_faces(
+            matches = fp.compare_faces(
                 encodeListKnown, encodeFace)
-            faceDis = face_recognition.face_distance(
+            faceDis = fp.face_distance(
                 encodeListKnown, encodeFace)
             # print("matches", matches)
             # print("faceDis", faceDis)
